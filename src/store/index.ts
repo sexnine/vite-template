@@ -1,11 +1,9 @@
-import { defineStore } from 'pinia'
+import { defineStore } from "pinia";
 
 export default defineStore("index", {
   state: () => {
-    return {
-
-    }
+    return {};
   },
   getters: {},
-  actions: {}
-})
+  actions: {},
+});
