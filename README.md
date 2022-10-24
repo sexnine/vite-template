@@ -13,3 +13,9 @@ If you run into this shitass error
 listen EACCES: permission denied 0.0.0.0:3000
 ```
 It's probably docker eating up all your ports (bro i kid you not docker took up every port jetbrains tried to bind to and couldnt open up my mfing ide) and it's probably time to restart your computer lol
+
+To fix - run in powershell administator:
+```
+net stop winnat
+net start winnat
+```
